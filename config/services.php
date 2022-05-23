@@ -30,4 +30,9 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'met' => [
+        'url' => env('MET_URL'),
+        'authorization' => env('MET_TOKEN'),
+    ],
+
 ];
